@@ -1,5 +1,3 @@
-# CURRENTLY THIS FILE IS A PLACEHOLDER (not fully updated)
-
 # Local Development Server Setup
 
 There are many ways to get live and local web servers running, too many for us to mention. The ClassicPress Community can probably help with your specific configuration, but for simplicity, we suggest anyone not familiar with web services should follow this guide and setup XAMPP as a Local Web Server to make it easier for us to help you.
@@ -7,11 +5,11 @@ There are many ways to get live and local web servers running, too many for us t
 ## Installing XAMPP
 
 (some versions of XAMPP use MariaDB)  
-*Windows Version Shown Here, Linux and OSX Versions are also available.*
+*Windows Version Shown Here, Linux and OSX Versions are also available*
 
-- Download the installer from [**Apache Friends**](https://www.apachefriends.org/index.html).  
-- When the download finishes, run the XAMPP installer.  
-- Click Next to choose which components to install.
+- Download the installer from [**Apache Friends**](https://www.apachefriends.org/index.html)  
+- When the download finishes, run the XAMPP installer  
+- **Click Next to choose which components to install**
 
 ![XAMPP Welcome](/dev-docs/img/xampp-welcome.png)
 
@@ -51,7 +49,7 @@ There are many ways to get live and local web servers running, too many for us t
 
 ![XAMPP Start](/dev-docs/img/xampp-start.png)
 
-### Once running, you should see the status change to green:
+### Once running, you should see the status change to green
 
 ![XAMPP Status](/dev-docs/img/xampp-status.png)
 
@@ -65,7 +63,7 @@ There are many ways to get live and local web servers running, too many for us t
 
 At this point there is a different configuration if you planned on contributing code to [ClassicPress Core](https://github.com/ClassicPress/ClassicPress/blob/develop/.github/CONTRIBUTING.md) (the main files that make up the ClassicPress Package). This document deals with installing ClassicPress locally so you can test it and see how things work, this configuration is also fine if you are designing Plugins or Themes for ClassicPress or to submit add-ons to the [ClassicPress Directory](DIRECTORY_SUBMISSIONS.md).
 
-To start, you need to visit [**ClassicPress.net**](https://www.classicpress.net/get-classicpress/) and download the latest version of ClassicPress. Now in Windows, navigate to the folder where you installed XAMPP. If you stayed with the installation default that should be `C:/xampp`. Find the **htdocs** subfolder and extract the zip file you downloaded from ClassicPress.net into it. _\* You can safely delete the existing files and folders in htdocs or you can leave them alone (we deleted them)_ If you deleted them as we have, the folder should now look like this.
+To start, you need to visit [**ClassicPress.net**](https://www.classicpress.net/get-classicpress/) and download the latest version of ClassicPress. Now in Windows, navigate to the folder where you installed XAMPP. If you stayed with the installation default that should be `C:/xampp`. Find the **htdocs** subfolder and extract the zip file you downloaded from ClassicPress.net into it. *\* You can safely delete the existing files and folders in htdocs or you can leave them alone (we deleted them)* If you deleted them as we have, the folder should now look like this.
 
 ![CP Files](/dev-docs/img/cp-files.png)
 
@@ -115,14 +113,12 @@ To start, you need to visit [**ClassicPress.net**](https://www.classicpress.net/
 
 ### Next are a few Site Details, you can use our examples or your own settings
 
-**When finished, click Install ClassicPress**
-
+**When finished, click Install ClassicPress**  
 ![CP Finish](/dev-docs/img/cp-finish.png)
 
 ### If the installation completes successfully you should see this page
 
-**Click Log In to access your site**
-
+**Click Log In to access your site**  
 ![CP Login](/dev-docs/img/cp-login.png)
 
 ### Now enter your Username and Password to Log In
