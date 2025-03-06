@@ -5,20 +5,18 @@
 ### Installing XAMPP
 
 SOME VERSIONS OF XAMPP USE MARIADB  
-Windows Version Shown Here, Linux and OSX Versions are also available.
-
-  
+*Windows Version Shown Here, Linux and OSX Versions are also available.*
 
 Download the installer from [**Apache Friends**](https://www.apachefriends.org/index.html). When the download finishes, run the XAMPP installer. Click Next to choose which components to install.
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/xampp-welcome.png)
+![XAMPP Welcome](/img/xampp-welcome.png)
 
 In addition to the required components (Apache & PHP), you should select:
 
-*   **MySQL** (or MariaDB)
-*   **phpMyAdmin**
+- **MySQL** (or MariaDB)
+- **phpMyAdmin**
 
-Once the options you need are selected, click Next.
+==Once the options you need are selected, click Next.==
 
 ![](https://elite-star-services.com/wp-content/uploads/self-host-img/xampp-select.png)
 
