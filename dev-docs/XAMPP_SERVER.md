@@ -2,9 +2,11 @@
 
 # Local Development Server Setup
 
+There are many ways to get live and local web servers running, too many for us to mention. The ClassicPress Community can probably help with your specific configuration, but for simplicity, we suggest anyone not familiar with web services should follow this guide and setup XAMPP as a Local Web Server to make it easier for us to help you.
+
 ## Installing XAMPP
 
-SOME VERSIONS OF XAMPP USE MARIADB  
+SOME~VERSIONS~OF~XAMPP~USE~MARIADB  
 *Windows Version Shown Here, Linux and OSX Versions are also available.*
 
 Download the installer from [**Apache Friends**](https://www.apachefriends.org/index.html). When the download finishes, run the XAMPP installer.  
@@ -19,23 +21,23 @@ In addition to the required components (Apache & PHP), you should select:
 
 ### Once the options you need are selected, click Next.
 
-![XAMPP Select](https://elite-star-services.com/wp-content/uploads/self-host-img/xampp-select.png)
+![XAMPP Select](/dev-docs/img/xampp-select.png)
 
 You can select the folder to install XAMPP, but we suggest you leave it as the default:
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/xampp-folder.png)
+![XAMPP Folder](/dev-docs/img/xampp-folder.png)
 
 Choose your preferred language and click Next.
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/xampp-lang.png)
+![XAMPP Lang](/dev-docs/img/xampp-lang.png)
 
 Click Next when you are ready to run the installer...
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/xampp-install.png)
+![XAMPP Install](/dev-docs/img/xampp-install.png)
 
 When the install finishes, launch the Control Panel to start working with XAMPP.
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/xampp-control.png)
+![XAMPP Control](/dev-docs/img/xampp-control.png)
 
 ## Start & Test your XAMPP Server
 
@@ -46,35 +48,37 @@ For everything to work, you need to start the two modules shown below:
 
 Start the modules using the XAMPP Control Panel:
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/xampp-start.png)
+![XAMPP Start](/dev-docs/img/xampp-start.png)
 
 Once running, you should see the status change to green:
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/xampp-status.png)
+![XAMPP Status](/dev-docs/img/xampp-status.png)
 
 Test that your server is working locally by going to `http://localhost/` in a browser. If you see a page similar to the image below, you have a functioning XAMPP Server.
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/xampp-working.png)
+![XAMPP Working](/dev-docs/img/xampp-working.png)
+
+
 
 ### Adding ClassicPress to the Server
 
 First, you need to visit [**ClassicPress.net**](https://www.classicpress.net/get-classicpress/) and download the latest version of ClassicPress. Now in Windows, navigate to the folder where you installed XAMPP. If you stayed with the installation default that should be `C:/xampp`. Find the **htdocs** subfolder and extract the zip file you downloaded from ClassicPress.net into it. _\* You can safely delete the existing files and folders in htdocs or you can leave them alone (we deleted them)_ If you deleted them as we have, the folder should now look like this.
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/cp-files.png)
+![CP Files](/dev-docs/img/cp-files.png)
 
 ### Create a Database for ClassicPress
 
 You need to create a database for ClassicPress to use. Launch phpMyAdmin by clicking Admin for the MySQL Module:
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/xampp-admin.png)
+![XAMPP Admin](/dev-docs/img/xampp-admin.png)
 
 Now click **Databases** at the top of the phpMyAdmin page as shown:
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/cp-create-1.png)
+![CP DB](/dev-docs/img/cp-create-1.png)
 
 Enter the desired name for your database (or use our example) and click **Create**.
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/cp-create-2.png)
+![CP Create](/dev-docs/img/cp-create-2.png)
 
 For a Live Web Server, there are serious security concerns with the following configuration, but for local development & testing, creating a database user is not required. Be aware that the XAMPP Server currently has no root database user password and that needs to be corrected if the server is ever connected to the internet.
 
@@ -82,38 +86,38 @@ For a Live Web Server, there are serious security concerns with the following co
 
 Now You should be able to visit your site at `http://localhost/` and see the ClassicPress installer. Select your desired language and then click Continue.
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/cp-install.png)
+![CP INstall](/dev-docs/img/cp-install.png)
 
 Now You should shown the following information page, when ready click Let's go!
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/cp-info.png)
+![CP Info](/dev-docs/img/cp-info.png)
 
 Next is the database details, enter them like this:
 
-*   **Database Name** - Name of the database created with phpMyAdmin (testsite)
-*   **Username** - root
-*   **Password** - leave blank
+- **Database Name** - Name of the database created with phpMyAdmin (testsite)
+- **Username** - root
+- **Password** - leave blank
 
 Once the information is entered, click Submit.
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/cp-data.png)
+![CP Data](/dev-docs/img/cp-data.png)
 
 This page confirms that ClassicPress has found your database, when ready click Run the installation.
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/cp-run.png)
+![CP Run](/dev-docs/img/cp-run.png)
 
 Next are a few Site Details, you can use our examples or your own settings. When finished, click Install ClassicPress.
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/cp-finish.png)
+![CP Finish](/dev-docs/img/cp-finish.png)
 
 If the installation completes successfully you should see this page. Click Log In to access your site.
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/cp-login.png)
+![CP Login](/dev-docs/img/cp-login.png)
 
 Now use your name and password to Log In.
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/cp-user.png)
+![CP User](/dev-docs/img/cp-user.png)
 
 You should now have a working ClassicPress site running at `http://localhost/` and can start to develop.
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/cp-site.png)
+![CP Site](/dev-docs/img/cp-site.png)
