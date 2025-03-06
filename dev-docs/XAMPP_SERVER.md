@@ -63,7 +63,11 @@ There are many ways to get live and local web servers running, too many for us t
 
 ## Adding ClassicPress to the Server
 
-At this point there is a different configuration if you planned on contributing code to [ClassicPress Core](https://github.com/ClassicPress/ClassicPress/blob/develop/.github/CONTRIBUTING.md) (the main files that make up the ClassicPress Package). This document deals with installing ClassicPress locally so you can test it and see how things work, this configuration is also fine if you are designing Plugins or Themes for ClassicPress or to submit Add-ons the [ClassicPress Directory](DIRECTORY_SUBMISSIONS.md).---To start, you need to visit [**ClassicPress.net**](https://www.classicpress.net/get-classicpress/) and download the latest version of ClassicPress. Now in Windows, navigate to the folder where you installed XAMPP. If you stayed with the installation default that should be `C:/xampp`. Find the **htdocs** subfolder and extract the zip file you downloaded from ClassicPress.net into it. _\* You can safely delete the existing files and folders in htdocs or you can leave them alone (we deleted them)_ If you deleted them as we have, the folder should now look like this.
+At this point there is a different configuration if you planned on contributing code to [ClassicPress Core](https://github.com/ClassicPress/ClassicPress/blob/develop/.github/CONTRIBUTING.md) (the main files that make up the ClassicPress Package). This document deals with installing ClassicPress locally so you can test it and see how things work, this configuration is also fine if you are designing Plugins or Themes for ClassicPress or to submit add-ons to the [ClassicPress Directory](DIRECTORY_SUBMISSIONS.md).
+
+---
+
+To start, you need to visit [**ClassicPress.net**](https://www.classicpress.net/get-classicpress/) and download the latest version of ClassicPress. Now in Windows, navigate to the folder where you installed XAMPP. If you stayed with the installation default that should be `C:/xampp`. Find the **htdocs** subfolder and extract the zip file you downloaded from ClassicPress.net into it. _\* You can safely delete the existing files and folders in htdocs or you can leave them alone (we deleted them)_ If you deleted them as we have, the folder should now look like this.
 
 ![CP Files](/dev-docs/img/cp-files.png)
 
