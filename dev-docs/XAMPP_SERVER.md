@@ -1,8 +1,8 @@
 # CURRENTLY THIS FILE IS A PLACEHOLDER (not fully updated)
 
-## ClassicPress Development Server
+# Local Development Server Setup
 
-### Installing XAMPP
+## Installing XAMPP
 
 SOME VERSIONS OF XAMPP USE MARIADB  
 *Windows Version Shown Here, Linux and OSX Versions are also available.*
@@ -16,9 +16,9 @@ In addition to the required components (Apache & PHP), you should select:
 - **MySQL** (or MariaDB)
 - **phpMyAdmin**
 
-==Once the options you need are selected, click Next.==
+### Once the options you need are selected, click Next.
 
-![](https://elite-star-services.com/wp-content/uploads/self-host-img/xampp-select.png)
+![XAMPP Select](https://elite-star-services.com/wp-content/uploads/self-host-img/xampp-select.png)
 
 You can select the folder to install XAMPP, but we suggest you leave it as the default:
 
@@ -36,12 +36,12 @@ When the install finishes, launch the Control Panel to start working with XAMPP.
 
 ![](https://elite-star-services.com/wp-content/uploads/self-host-img/xampp-control.png)
 
-### Start & Test your XAMPP Server
+## Start & Test your XAMPP Server
 
 For everything to work, you need to start the two modules shown below:
 
-*   **Apache**
-*   **MySQL** (or MariaDB)
+- **Apache**
+- **MySQL** (or MariaDB)
 
 Start the modules using the XAMPP Control Panel:
 
