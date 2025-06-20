@@ -93,7 +93,7 @@ To start, you need to visit [**ClassicPress.net**](https://www.classicpress.net/
 
 ![CP INstall](/dev-docs/img/cp-install.png)
 
-### Now You should shown the following information page, when ready click Let's go!
+### Now You should be shown the following information page, when ready click Let's go!
 
 ![CP Info](/dev-docs/img/cp-info.png)
 
